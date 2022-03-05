@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="./fist.css">
+<body>
+    <a href="GAK home.html">HOME</a>
+    <a href="menu.html">MENU</a> 
+    <a href="login.html">LOGIN</a>
+    <a href="about.html" >ABOUT</a> 
+    <a href="contact.html" >CONTACT</a>
+    <a href="faq.html" >FAQ</a>
+    <div class="pics" style="width:100%">
+  
+        <img class="mySlides" src="pizza.jpeg" style="width:100%">
+         
+        <img class="mySlides" src="snail.jpg" style="width:100%">
+      </div>
+    <div class="main">
+   <h1> Help & support</h1>
+    <p>Couriers are independent professionals connected to our platform.<br> Together with a smartphone and their own vehicle.</p>
+    
+    
+   <h4> How do I place an order?</h4>
+    <h6>Ordering your first GAK is really easy. Just follow these steps:</h6>
+    
+ <p>   (1) Go to the "Manage payment methods" section in your profile and add a debit/credit  <br>
+    (2) Go back to the main screen and set the delivery address.<br> Remember to choose the correct city from the drop-down menu.<br>
+    If you have a promo code, don't forget to validate it in your profile before ordering.
+</p>
+    <h5>Now you have 3 options:</h5>
+   <p> (1) Buy something: from a restaurant or store. Choose from any of our partners in any of the categories.<br>
+    (2) Send something: with just a pick-up point and destination, you can use a courier to send anything.<br>
+    (3) Ask for something (Anything): describe anything you need and GAK will try to make it happen!<br>
+    Follow the steps required for each option and once you’re finished, a courier will accept your order and deliver it in minutes.<br>
+    If you need to add more than one delivery address, you'll need to place the order on our website, gak.com.<br>
+</p>
+   <h5> How much does delivery cost?</h5>
+   <p> The price of our service is optimised by distance, so the closer it is, the cheaper it is.
+    </p></div>
+   
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 4000); // Change image every 2 seconds
+        }
+        </script>
+     </body>
+     </html>

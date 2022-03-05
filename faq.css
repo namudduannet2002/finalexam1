@@ -1,0 +1,20 @@
+a{
+    color: rgba(0, 0, 0, 0.986);
+    padding: 2%;
+    background-color: rgba(137, 252, 61, 0.432);
+    font-size: 52px;
+    font-weight: 68px;
+}
+.main{
+font-size: 24px;
+font-family  :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(210, 247, 4);
+position: absolute;
+top: 75PX;;
+width: 100%;
+background-color: rgba(185, 40, 29, 0.445);
+}
+.back{
+     position: absolute;
+     top: 15px;
+}

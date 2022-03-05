@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .mySlides{
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(4px);
+  
+
+}
+  </style>
+    
+    <link rel="stylesheet" href="./fist.css">
+<body  >
+<!---  slides  -->
+
+
+<div class="pics" style="width:100%">
+    <img class="mySlides" src="logo.jpg" style="width:100%">
+    <img class="mySlides" src="pizza.jpeg" style="width:100%">
+    <img class="mySlides" src="plate.jpg" style="width:100%">
+  </div>
+  
+<div class="move">
+
+<h1  >GAK <br>FAST FOOD <br>WELCOMES YOU</h1></div>
+  
+
+<div class="next">
+  <a href="GAK home.html" >HOME</a>
+    <a href="menu.html">MENU</a> 
+    <a href="login.html">LOGIN</a>
+    <a href="about.html" >ABOUT</a>
+    <a href="contact.html" >CONTACT</a> 
+    <a href="faq.html" >FAQ</a>
+  </div>
+    
+  
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 4000); // Change image every 2 seconds
+    }
+    </script>
+<!--
+<p > GAK FAST FOODS</p> 
+
+<a href="second.html">service</a>
+
+
+<p>PROUD OF YOU </P><br>
+
+
+<p style="color:rgb(241, 10, 10);"
+    style="font:Algerian;">MENU</p>
+
+    <br><br>
+    
+    <h1 size="800%" style="color: rgb(255, 17, 0);"><b>GAK WELCOMES YOU TO GOOD TASTE OF THE TONGUE</b> </h1>
+    <p><i><b>LOCATED IN NKOZI UGANDA</b></i></p></div>--->
+</body>
+</html>

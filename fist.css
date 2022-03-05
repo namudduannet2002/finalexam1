@@ -1,0 +1,39 @@
+
+    .move{
+       font-family:Georgia, 'Times New Roman', Times, serif;
+      font-size: 60px;
+      color: rgb(133, 250, 0);
+     
+      position: absolute;
+      top: 1px;
+      left: 50px;
+    }
+    .next{
+        font-size: 50px;
+        color: yellow;
+        position: absolute;
+      top: 500px;
+      left: 160px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight:400;
+      text-decoration:none ;
+      padding: 16px;
+      
+    
+    }
+    a:link {
+        
+        background-color: transparent;
+        text-decoration: none;
+            background-color: #f6fa0683;
+           text-emphasis-color:white;
+            padding: 15px 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+          
+      }
+      a{
+        color: yellow;
+    }
+   
