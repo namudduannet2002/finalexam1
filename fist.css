@@ -25,7 +25,7 @@
         
         background-color: transparent;
         text-decoration: none;
-            background-color: #f6fa0683;
+            background-color: #06faa983;
            text-emphasis-color:white;
             padding: 15px 5px;
             text-align: center;
@@ -34,6 +34,6 @@
           
       }
       a{
-        color: yellow;
+        color: rgb(0, 38, 255);
     }
    
